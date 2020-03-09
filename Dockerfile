@@ -1,5 +1,4 @@
-FROM oracle/graalvm-ce:19.3.1-java8 as graalvm
-#FROM oracle/graalvm-ce:19.3.1-java11 as graalvm # For JDK 11
+FROM oracle/graalvm-ce:19.3.1-java11 as graalvm
 RUN gu install native-image
 
 COPY . /home/app/request-joiner
