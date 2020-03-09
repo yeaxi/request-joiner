@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: ua.dudka
+---
+testFramework: junit
+sourceLanguage: java

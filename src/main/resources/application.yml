@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: request-joiner
+
+logger:
+  levels:
+    ua.dudka: DEBUG
+
+request-joiner:
+  request-timeout: 250
+  events-batch-size: 20
+  batch-call-timeout: 100
